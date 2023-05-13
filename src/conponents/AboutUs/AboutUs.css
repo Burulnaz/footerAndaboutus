@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutus {
+    position: relative;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+.content{
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: 8%;
+   display: flex;
+}
+
+
+@media screen and (max-width: 320px ) {
+    .caption{
+        display: none;
+
+    }
+    .map{
+        display: none;
+    }
+    .blocks-text{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .map{
+        display: none;
+    }
+    .blocks-text{
+        margin: 0;
+        text-align: center;
+    }
+}
+

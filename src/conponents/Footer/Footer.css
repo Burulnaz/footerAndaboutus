@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .social-media{
+    margin-bottom: 2%;
+  }
+
+@media screen and (max-width: 480px) {
+    .block-1{
+        display: none;
+    }
+    .block-2{
+        display: none;
+    }
+    .block-4{
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    .block-2{
+        display: none;
+    }
+}
+
+
+
